@@ -30,19 +30,15 @@
 
 		#article1, #article2 ,#article3{
 			background-image:linear-gradient(to top, #30cfd0 0%, #330867 100%);
-			border: 2px solid !important;
+			border: 3px solid !important;
 		}  
 
-		main{
-			text-align: center;
-			
-		}  
-
+		
 		
 	</style>
     </head>
   <body>
-    	<nav class="navbar navbar-expand-lg navbar-light"style="background-color: #e3f2fd;margin-top: 2px;">
+    	<nav class="navbar navbar-expand-lg navbar-light"style="background-color: #e3f2fd;margin: 2px 0px 2px 0px;">
 			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
 			    <span class="navbar-toggler-icon"></span>
 			  </button>
@@ -56,9 +52,18 @@
 			        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
 			      </li>
 			      &nbsp;&nbsp;&nbsp;&nbsp;
-			      <li class="nav-item">
-			        <a class="nav-link" href="#">Articles</a>
-			      </li>
+			      <li class="nav-item dropdown">
+			              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			                Articles
+			              </a>
+			              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+			                <a class="dropdown-item" href="#article1">Article-1</a>
+			                <a class="dropdown-item" href="#article2">Article-2</a>
+			                <a class="dropdown-item" href="#article3">Article-3</a>
+			                <div class="dropdown-divider"></div>
+			                <a class="dropdown-item" href="#">All</a>
+			              </div>
+			       </li>
 			      &nbsp;&nbsp;&nbsp;&nbsp;
 			      <li class="nav-item">
 			        <a class="nav-link" href="#">Features</a>
@@ -72,11 +77,10 @@
 			  </ul>
 
 
-			  	<section>
-					<audio src="./Mandolin.mp3" autoplay="" loop="true">
-						<!-- <source src="./Mandolin.mp3"  type="audio/mp3">
-											 --></audio>	
-				</section>
+			  	<!-- <section>
+			  						<audio controls="false" src="./Mandolin.mp3" autoplay loop="true">
+			  							<source src="./Mandolin.mp3"  type="audio/mp3"></audio>	
+			  					</section> -->
 
 
 			  <form class="form-inline my-2 my-lg-0">
@@ -85,7 +89,6 @@
 			    </form>
 			</div>
 		</nav>
-		
 
 	<main>
 		
