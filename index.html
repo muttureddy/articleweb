@@ -25,19 +25,24 @@
 
 	  body {
 		      font-family:'TIMES NEW ROMAN', sans-serif;
-	
 		       position: relative;
 		    }
 
 		#article1, #article2 ,#article3{
 			background-image:linear-gradient(to top, #30cfd0 0%, #330867 100%);
+			border: 2px solid !important;
+		}  
 
-		}    
+		main{
+			text-align: center;
+			
+		}  
+
 		
 	</style>
     </head>
   <body>
-    	<nav class="navbar navbar-expand-lg navbar-light"style="background-color: #e3f2fd;">
+    	<nav class="navbar navbar-expand-lg navbar-light"style="background-color: #e3f2fd;margin-top: 2px;">
 			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
 			    <span class="navbar-toggler-icon"></span>
 			  </button>
@@ -68,7 +73,7 @@
 
 
 			  	<section>
-					<audio controls="false" src="./Mandolin.mp3" autoplay="true" loop="true">
+					<audio src="./Mandolin.mp3" autoplay loop="true">
 						<!-- <source src="./Mandolin.mp3"  type="audio/mp3">
 											 --></audio>	
 				</section>
@@ -82,8 +87,9 @@
 		</nav>
 		
 
+	<main>
 		
-        <div id="article1" class="jumbotron text-center"    ;>
+        <div id="article1" class="jumbotron text-center";>
 				 <div class="container text-white container-sm">
 				  	
 				  <h1 ><mark class="btn-primary" style="border-radius: 10px;">First Article</mark></h1><br>
@@ -167,6 +173,6 @@
 				</div>
 		</div>
 
-
+	</main>
     </body>
 </html>
